@@ -1,9 +1,11 @@
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+![License](https://img.shields.io/github/license/quaxsze/flask-file-system)
 
 <br />
+
 <p align="center">
-  <h2 align="center">Flask-File-System</h2>
+
+  <h3 align="center">Flask-File-System</h3>
+
   <p align="center">
     File storages for Flask.
     <br />
@@ -148,9 +150,3 @@ $ inv test qa
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/quaxsze/flask-file-system/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/quaxsze/flask-file-system/blob/master/LICENSE
