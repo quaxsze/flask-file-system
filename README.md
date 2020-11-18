@@ -3,19 +3,14 @@
 
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Flask-File-System</h3>
-
+  <h2 align="center">Flask-File-System</h2>
   <p align="center">
     File storages for Flask.
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/quaxsze/flask-file-system/issues">Report Bug</a>
   </p>
 </p>
 
@@ -33,7 +28,7 @@
 ## About The Project
 
 Flask-File-System provide a simple and flexible file storage interface for Flask.
-This is a independently maintained version of Flask-FS based on the 0.6.1 version of the [Original]() project, unmaintains.
+This is a independently maintained version of Flask-FS based on the 0.6.1 version of the [Original](https://github.com/noirbizarre/flask-fs) project, unmaintains.
 
 ## Getting Started
 
@@ -67,7 +62,7 @@ $ pip install flask-fs[all]  # To include all dependencies for all backends
 
 ```python
     from flask import Flask
-    import flask_fs as fs
+    import flask_file_system as fs
 
     app = Flask(__name__)
     fs.init_app(app)
@@ -89,7 +84,7 @@ Flask-File-System is open-source and open to contributions.
 
 #### Submitting issues
 
-Issues can be submitted [here](https://github.com/noirbizarre/flask-fs/issues).
+Issues can be submitted [here](https://github.com/quaxsze/flask-file-system/issues).
 
 Please provide as much information as possible when submitting the issue:
 
@@ -100,7 +95,7 @@ Please provide as much information as possible when submitting the issue:
 
 #### Submitting patches (bugfix, features, ...)
 
-1. Fork the [Flask-File-System repository]()
+1. Fork the [Flask-File-System repository](https://github.com/quaxsze/flask-file-system)
 2. Create a branch with an explicit name (`issue-XX` for example)
 3. Work in it
 4. Rebase it on the master branch from the official repository (cleanup your history by performing an interactive rebase)
@@ -154,10 +149,8 @@ $ inv test qa
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
 <!-- MARKDOWN LINKS & IMAGES -->
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[issues-url]: https://github.com/quaxsze/flask-file-system/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-url]: https://github.com/quaxsze/flask-file-system/blob/master/LICENSE

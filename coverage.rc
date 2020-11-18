@@ -1,5 +1,5 @@
 [run]
-source = flask_fs
+source = flask_file_system
 branch = True
 omit =
     /tests/*
